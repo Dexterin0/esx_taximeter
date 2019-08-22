@@ -1,5 +1,5 @@
 # esx_taximeter
-updated and shortened version of the Taximeter hud from 57 modified by Dexter
+updated and shortened version of the Taximeter hud from Damen 57 modified by Dexter
 
 If you want to change the key setting open client/main.lua and search for 170.
 Replace it with one of those controls : https://docs.fivem.net/game-references/controls/
