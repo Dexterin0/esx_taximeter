@@ -1,7 +1,34 @@
+# THIS BRANCH COMES WITH BASIC UI!
 # esx_taximeter
-As I saw lots of peope having problems with the existing scripts I did some changes to esx_taximeter.
-Updated and shortened version of the Taximeter hud from Damen 57 modified by Dexter.
+ESX Taxi Meter is a plugin that adds a fare meter to your server. Great for those
+who work as an Uber, Taxi, Limo, Tow, Aircraft Ferry or any other job that might
+charge per mile of travel.
 
+Right now it supports two types of fares. A "Flat Rate" fare which is simple
+enough and a "distance" fare which shows a fare total based upon the distance
+traveled. The driver is the "owner" of the meter and any passengers in the car
+will be able to see the meter if it is active.
+
+In the configuration file you can set restrictions on what vehicle and what ESX
+jobs can use the meter. Currently supports both imperial and metric measurements.
+
+The meter can be launched by using F6
+
+# Requirements
+ESX
+
+# Installation
+Run inside of your server-data/resources folder
+Add to your server.cfg file
+```
+start esx_taximeter
+```
+
+# Known Issues
+When a passenger gets in the vehicle, the driver will need to toggle the radar to
+make it appear.
+
+# Settings
 ________________________Hotkey__________________________
 If you want to change the key setting open client/main.lua and search for 170.
 Replace it with one of those controls : https://docs.fivem.net/game-references/controls/
@@ -15,3 +42,4 @@ I left in some config options, should be self explanatory.
 You can still change mi to km and the restricted vehicle classes etc.
 
 Enjoy!
+
