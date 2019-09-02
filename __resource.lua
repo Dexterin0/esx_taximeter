@@ -8,7 +8,10 @@ files {
 	"nui/digital-7.regular.ttf",
 	"nui/meter.html",
 	"nui/meter.css",
-	"nui/meter.js"
+	"nui/meter.js",
+	'nui/img/phone.png',
+	'nui/img/fare1.png',
+	'nui/img/fare2.png'
 }
 
 client_scripts{

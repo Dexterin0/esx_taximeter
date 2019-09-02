@@ -8,10 +8,10 @@ Config.RestrictVehicles = true
 
 -- Distance Measurement -- valid options are "mi" or "km". "mi" is default. If you
 -- change this be sure to change RateSuffix as well
-Config.DistanceMeasurement = 'mi'
+Config.DistanceMeasurement = 'km'
 
 -- Rate Suffix
-Config.RateSuffix = '/mi'
+Config.RateSuffix = '/km'
 
 -- Which vehicles can not use the meter (if RestrictVehicles= true). By default
 -- Bicycles, OffRoad and Emergency vehicles are disallowed
